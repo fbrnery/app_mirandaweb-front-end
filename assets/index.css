@@ -124,8 +124,6 @@ video {
     color: white;
 }
 
-
-
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
@@ -151,4 +149,10 @@ video {
 
 .bg {
   background-color: #00050c!important;
+}
+
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: rgb(245 248 251 / 75%)!important;
 }
