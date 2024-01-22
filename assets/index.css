@@ -156,3 +156,8 @@ video {
   --bs-text-opacity: 1;
   color: rgb(245 248 251 / 75%)!important;
 }
+
+.fw-light {
+  font-weight: 300!important;
+  text-align: center;
+}
