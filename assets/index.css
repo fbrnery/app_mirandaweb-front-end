@@ -101,11 +101,8 @@ video {
 
 .linkredes {
   text-align: center;
-}
-
-
-.linkredes {
-  text-align: center;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 
@@ -166,3 +163,4 @@ video {
     --bs-text-opacity: 1;
     color: rgb(245 248 251 / 75%)!important;
 }
+
