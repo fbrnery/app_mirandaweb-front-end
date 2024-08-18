@@ -4,23 +4,7 @@ body {
  
 }
 
-.navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  text-decoration: none;
-  white-space: nowrap;
-  padding-left: 80px;
-}
 
-.navbar-collapse {
-  margin-left: 1rem;
-  padding: 1rem;
-  padding-left: 1rem;
-  font-size: 18px;
-  font-family: "Roboto, "Helvetica Neue", Arial, sans-serif, Montserrat";
-}
 
 /* Carousel base class */
 .carousel {
@@ -33,10 +17,7 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-  width: 32rem;
-}
+
 /* Carousel image */
 .carousel-inner > .carousel-item > img {
   width: 120rem;
