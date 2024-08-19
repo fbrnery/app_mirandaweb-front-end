@@ -4,6 +4,12 @@ body {
 
 }
 
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 5rem;
+}
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
