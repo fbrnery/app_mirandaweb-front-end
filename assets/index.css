@@ -19,7 +19,7 @@ body {
 /* Carousel image */
 .carousel-inner > .carousel-item > img {
   width: 120rem;
-  height: 700px; 
+  height: 650px; 
   border-radius: 1px;
   border-bottom-left-radius: 1px;
 }
