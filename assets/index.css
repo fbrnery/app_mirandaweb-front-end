@@ -9,6 +9,10 @@ body {
   font-weight: 300;
   margin: 5rem;
 }
+.accordion {
+  margin: 7rem;
+  margin-bottom: 10rem;
+}
 
 /* Carousel base class */
 .carousel {
