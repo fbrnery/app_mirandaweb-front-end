@@ -24,6 +24,10 @@ body {
   z-index: 10;
 }
 
+.alert-primary {
+  margin: 7rem;
+}
+
 /* Declare heights because of positioning of img element */
 
 /* Carousel image */
