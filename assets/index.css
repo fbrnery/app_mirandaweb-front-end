@@ -3,6 +3,14 @@ body {
 
 }
 
+.cap {
+  margin: 2rem;
+}
+
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: 50%;
+}
 
 .lead {
   font-size: 1.25rem;
