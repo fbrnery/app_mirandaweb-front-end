@@ -12,6 +12,10 @@ body {
   width: 50%;
 }
 
+img, embed, object, video {
+  max-width: 100%;
+  
+}
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -40,8 +44,7 @@ body {
 
 /* Carousel image */
 .carousel-inner > .carousel-item > img {
-  width: 120rem;
-  height: 650px; 
+   
   border-radius: 1px;
   border-bottom-left-radius: 1px;
 }
@@ -90,9 +93,6 @@ body {
   margin-left: .75rem;
 }
 
-img, embed, object, video {
-  max-width: 100%;
-}
 
 .fw-normal {
   font-weight: 400!important;
