@@ -42,6 +42,7 @@ img, embed, object, video {
 
 /* Declare heights because of positioning of img element */
 
+
 /* Carousel image */
 .carousel-inner > .carousel-item > img {
   width: 100%;
@@ -53,6 +54,27 @@ img, embed, object, video {
 @media (max-width: 576px) {
   .carousel-inner > .carousel-item > img {
     height: 350px;
+  }
+  .titulo__carrossel {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .text__carrossel { 
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .carousel-caption {
+    line-height: 1.43;
+    font-weight: bold;
+    text-shadow: 0 0 0.5em black,
+      0 0 0.1em black,
+      0 0 0.1em black;
+    z-index: 0px;
+    margin-bottom: -25px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   }
 
