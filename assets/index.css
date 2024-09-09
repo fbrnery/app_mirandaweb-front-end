@@ -52,7 +52,7 @@ img, embed, object, video {
 
 @media (max-width: 576px) {
   .carousel-inner > .carousel-item > img {
-    height: 280px;
+    height: 300px;
   }
   }
 
