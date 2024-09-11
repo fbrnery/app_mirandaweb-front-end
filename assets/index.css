@@ -2,6 +2,9 @@ body {
   color: #f0f2f5;
 }
 
+.accordion-body {
+  text-align: justify;
+}
 
 .projetos {
   margin: 2rem;
