@@ -3,7 +3,11 @@ body {
 }
 
 
-
+.projetos {
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+}
 .canvas {
  display: flex;
  flex-direction: row;
