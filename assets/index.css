@@ -1,6 +1,7 @@
 body {
   color: #f0f2f5;
 }
+/*Extras*/
 
 .accordion-body {
   text-align: justify;
@@ -43,6 +44,7 @@ video {
   margin-bottom: 10rem;
 }
 
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -82,22 +84,26 @@ video {
     line-height: 1.43;
     font-weight: bold;
     text-shadow: 0 0 0.5em black, 0 0 0.1em black, 0 0 0.1em black;
-    z-index: 0px;
-    margin-bottom: -25px;
-    margin-top: 0px;
-    color: #ffffff;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 @media (min-width: 768px) {
   .carousel-inner > .carousel-item > img {
     height: 400px;
   }
+  .text__carrossel {
+    font-size: 20px;
+    font-weight: 400;
+  }
+ 
 }
 
 @media (min-width: 992px) {
   .carousel-inner > .carousel-item > img {
     height: 500px;
+  }
+  .text__carrossel {
+    font-size: 25px;
+    font-weight: 400;
   }
 }
 
@@ -105,11 +111,20 @@ video {
   .carousel-inner > .carousel-item > img {
     height: 600px;
   }
+  .text__carrossel {
+    font-size: 25px;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 1400px) {
   .carousel-inner > .carousel-item > img {
-    height: 650px;
+    height: 600px;
+  }
+
+  .text__carrossel {
+    font-size: 25px;
+    font-weight: 400;
   }
 }
 
