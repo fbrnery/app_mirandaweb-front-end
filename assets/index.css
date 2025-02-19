@@ -1,6 +1,19 @@
 body {
   color: #f0f2f5;
 }
+
+/*Página sobre nós*/
+
+.fw-light {
+ 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+/*Página sobre nós*/
+
 /*Extras*/
 
 .accordion-body {
