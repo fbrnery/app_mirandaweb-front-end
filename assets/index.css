@@ -2,6 +2,7 @@ body {
   color: #f0f2f5;
 }
 
+
 .navbar {
   background-color: #03071E;
   display: flex;
@@ -83,6 +84,22 @@ video {
   width: 100%;
   border-radius: 1px;
   border-bottom-left-radius: 1px;
+}
+.carousel-inner > .carousel-item > img {
+  height: 150px;
+}
+
+.carousel-item {
+  border-radius: 2rem;
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+  height: 28rem;
 }
 
 @media (max-width: 576px) {
@@ -166,6 +183,11 @@ video {
   background-repeat: no-repeat;
   background-position: 50% center;
   background-size: 100% 100%;
+}
+
+.carousel {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* MARKETING CONTENT
@@ -291,3 +313,37 @@ h5 {
 }
 
 /* footer */
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  background: #333;
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 50%;
+  margin: 0 auto;
+  max-width: 50%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
