@@ -89,7 +89,7 @@ video {
       border-color: #65BA77;
       border-radius: 14px;
       font-size: 18px;
-      margin: 1rem;
+      margin: 2px;
       margin-bottom: 2rem;
       margin-left: 1rem;
       margin-right: 2rem;
@@ -200,7 +200,7 @@ video {
       border-color: #65BA77;
       border-radius: 14px;
       font-size: 18px;
-      margin: 1rem;
+      margin: 2px;
       margin-bottom: 2rem;
       margin-left: 1rem;
       margin-right: 2rem;
@@ -585,7 +585,8 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  margin-bottom: 2rem;
+  margin-top: 6rem;
 }
 
 .titulo__banner_inicio {
@@ -635,33 +636,54 @@ video {
   text-align: center;
 }
 
-/* MARKETING CONTENT
+/* MARKETING CONTENT - Destaques
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing .col-lg-4 > img {
-  border-radius: 8rem;
-}
-
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
-.fw-normal {
-  font-weight: 400 !important;
-  padding: 2rem;
-}
 
 .pb-2 {
   padding-bottom: 0.5rem !important;
   text-align: center;
+}
+
+.display {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #343a40;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.text__destaques {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin: 2rem;
+  color: #495057;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.landing_page {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.sites_institucionais {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.aplicacao_de_web {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.card-text {
+  text-align: justify;
 }
 /* rtl:end:ignore */
 
