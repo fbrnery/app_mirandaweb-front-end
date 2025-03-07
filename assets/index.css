@@ -1,5 +1,5 @@
 body {
-  color: #F5F5F5;
+  color: #FFFFFF;
 }
 
 
@@ -22,25 +22,6 @@ body {
 
 /*Extras*/
 
-.accordion-body {
-  text-align: justify;
-}
-
-.projetos {
-  margin: 2rem;
-  align-items: center;
-  text-align: center;
-}
-.canvas {
- display: flex;
- flex-direction: row;
- justify-content:center;
-}
-
-.cap {
-  margin: 2rem;
-}
-
 .card-img,
 .card-img-bottom,
 .card-img-top {
@@ -53,21 +34,21 @@ object,
 video {
   max-width: 100%;
 }
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-  margin: 5rem;
-}
-.accordion {
-  margin: 7rem;
-  margin-bottom: 10rem;
-}
 
 
 
 /* Carousel image */
 
 @media (max-width: 375px) {
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  
   .carousel-inner > .carousel-item > img {
     height: 270px;
     width: 300px;
@@ -148,6 +129,16 @@ video {
   }
 
 @media (min-width: 376px) {
+
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: rem;
+  }
+  
   .carousel-inner > .carousel-item > img {
     height: 270px;
     width: 300px;
@@ -215,6 +206,15 @@ video {
   }
 
   @media(min-width: 576px){
+    .banner_principal {
+      background-color: #4C6BE0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      margin-top: 4rem;
+    }
+    
   .carousel-inner > .carousel-item > img {
       height: 330px;
       width: 450px;
@@ -272,6 +272,17 @@ video {
   
 
 @media(min-width: 767px){
+
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+  
   .carousel-inner > .carousel-item > img {
     height: 330px;
     width: 450px;
@@ -317,6 +328,15 @@ video {
 }
 
 @media(min-width: 992px){
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
   .carousel-inner > .carousel-item > img {
     height: 330px;
     width: 450px;
@@ -343,12 +363,22 @@ video {
   margin-bottom: 0rem;
   font-size: 26px;
 }
+
+.titulo__banner_inicio {
+  font-weight: 600!important;
+  color: #F5F5F5;
+  text-align: center;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
 .botao {
   color: #fff;
   background-color: #65BA77;
   border-color: #02B875;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -362,6 +392,15 @@ video {
 }
 
 @media(min-width: 1200px){
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+
   .carousel-inner > .carousel-item > img {
     height: 330px;
     width: 530px;
@@ -391,7 +430,7 @@ video {
   background-color: #65BA77;
   border-color: #02B875;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 21px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -405,6 +444,16 @@ video {
 }
 
 @media(min-width: 1400px){
+
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+
   .carousel-inner > .carousel-item > img {
     height: 330px;
     width: 530px;
@@ -429,12 +478,22 @@ video {
   margin-bottom: 0rem;
   font-size: 28px;
 }
+
+.titulo__banner_inicio {
+  font-weight: 600!important;
+  color: #F5F5F5;
+  text-align: center;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 3rem;
+  font-size: 22px;
+}
+
 .botao {
   color: #fff;
   background-color: #65BA77;
   border-color: #02B875;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -448,6 +507,15 @@ video {
 }
 
 @media(min-width: 1600px){
+  .banner_principal {
+    background-color: #4C6BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+  }
+
   .carousel-inner > .carousel-item > img {
     height: 330px;
     width: 530px;
@@ -478,7 +546,7 @@ video {
   background-color: #65BA77;
   border-color: #02B875;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 19px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -491,49 +559,6 @@ video {
 }
 }
 
-@media(min-width: 1600px){
-  .carousel-inner > .carousel-item > img {
-    height: 330px;
-    width: 530px;
-}
-.carousel-inner {
-  position: absolute;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 7px;
-  border-color: #F5F5F5;
-  margin: 0rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.titulo__banner {
-  font-weight: 600!important;
-  color: #F5F5F5;
-  text-align: center;
-  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin-bottom: 0rem;
-  font-size: 28px;
-}
-
-.botao {
-  color: #fff;
-  background-color: #65BA77;
-  border-color: #02B875;
-  border-radius: 10px;
-  font-size: 24px;
-  margin-left: 1rem;
-  margin-right: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding: 1rem;
-  font-family: "Montserrat";
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
-}
-}
 
 @media(min-width: 1800px){
   .carousel-inner > .carousel-item > img {
@@ -566,7 +591,7 @@ video {
   background-color: #65BA77;
   border-color: #02B875;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 23px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -577,25 +602,6 @@ video {
   display: inline-block;
   text-decoration: none;
 }
-}
-
-
-.banner_principal {
-  background-color: #4C6BE0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-  margin-top: 6rem;
-}
-
-.titulo__banner_inicio {
-  font-weight: 600!important;
-  color: #F5F5F5;
-  text-align: center;
-  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin-bottom: 3rem;
-  font-size: 28px;
 }
 
 
@@ -643,6 +649,7 @@ video {
 .pb-2 {
   padding-bottom: 0.5rem !important;
   text-align: center;
+  color: #03071E;
 }
 
 .display {
@@ -652,16 +659,18 @@ video {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: #343a40;
+  color: #03071E;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .text__destaques {
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  align-items: flex-start;
+  text-align: justify;
   font-size: 22px;
   margin: 2rem;
-  color: #495057;
+  color: #03071E;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -685,49 +694,43 @@ video {
 .card-text {
   text-align: justify;
 }
-/* rtl:end:ignore */
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  margin: 2rem;
+}
+
+.display_titulo {
+  font-size: 36px;
+  color: #03071E;
+  margin: 2rem;
+}
+
+.texto_lead {
+  color: #03071E;
+  margin: 2rem;
+  font-size: 22px;
+  text-align: justify;
+}
+
+/* MARKETING CONTENT - Destaques
+-------------------------------------------------- */
+
 
 /* Featurettes
 ------------------------- */
-
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
-
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
-.featurette-heading {
-  letter-spacing: -0.05rem;
-}
-
-.orcamento {
-  padding: 5rem;
-  padding-bottom: 5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.orcamento > img {
-  border-radius: 7rem;
-}
-
-/* rtl:end:remove */
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Featurettes
+------------------------- */
 
 
 /* footer */
+.footer_rodape {
+  margin-top: -3rem;
+}
 
 .linkredes {
   text-align: center;
