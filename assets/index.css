@@ -1066,6 +1066,12 @@ h5 {
   justify-content: space-evenly;
 }
 
+.texto_sobrenos {
+  text-align: justify;
+  display: flex;
+  text-align: justify;
+}
+
 .logomarcas {
   display: flex;
   align-items: center;
