@@ -1077,6 +1077,11 @@ h5 {
   align-items: center;
 }
 
+.carrousel_skylys {
+  width: 50%;
+  height: 50%;
+}
+
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
 
 .blog-header-logo {
@@ -1115,4 +1120,45 @@ h1, h2, h3, h4, h5, h6 {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carousel {
+ 
+  width: 100%;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 0px;
+
+  
+}
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 0px;
+  background: #fff;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  border: #00050c;
+  border: 1rem;
+  border-radius: 5rem;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+}
+.config_geral {
+  margin-bottom: 10rem;
 }
