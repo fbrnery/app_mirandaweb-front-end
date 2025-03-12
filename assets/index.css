@@ -1161,3 +1161,10 @@ html { overflow-y: scroll; }
 .config_geral {
   margin-bottom: 10rem;
 }
+
+.text__formatos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
