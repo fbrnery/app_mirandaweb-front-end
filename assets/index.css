@@ -1168,3 +1168,8 @@ html { overflow-y: scroll; }
   align-items: center;
   text-align: left;
 }
+
+.card-text {
+  text-align: justify;
+  padding: 2px;
+}
